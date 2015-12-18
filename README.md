@@ -21,8 +21,10 @@ Set up `GITHUB_TOKEN` environment variable with your OAuth GitHub access token.
 ```js
 var isGithubTeamReposEmpty = require('is-github-team-repos-empty');
 
-isGithubTeamReposEmpty('1234567');
-//=> true
+isGithubTeamReposEmpty('1234567').then(function (isRepoListEmpty) {
+  console.log(isRepoListEmpty);
+  //=> true
+});
 ```
 
 ## API
