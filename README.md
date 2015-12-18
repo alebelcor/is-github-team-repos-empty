@@ -29,8 +29,8 @@ isGithubTeamReposEmpty('1234567');
 
 ### isGithubTeamReposEmpty(teamId)
 
-Returns a **promise** that resolves to a boolean value of whether or not a GitHub team is without
-repositories.
+Returns a **promise** that resolves to a boolean value of whether or not a GitHub team repository
+list is empty.
 
 #### teamId
 
